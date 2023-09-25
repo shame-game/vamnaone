@@ -1,0 +1,103 @@
+/* button tìm hiểu thêm ở trang chủ */
+.bt span,
+.bt span {
+    color: rgb(255 255 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    opacity: 1;
+}
+
+.bt{
+    border-radius: 23px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    position: relative;
+    padding: 10px 20px;
+    overflow: hidden;
+    animation: showcontent 1s 0.4s ease forwards;
+    opacity: 0;
+    margin-top: 18px;
+}
+
+.bt::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.bt:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.bt:hover span {
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+}
+
+.bt:hover span {
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    width: 35%;
+    z-index: 2;
+    right: 10%;
+    top: 68%;
+}
+
+.button i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: calc(2rem + 1.4vw);
+    text-shadow: 0 1px 1px;
+}
+
+/* button nền vàng */ 
+.bt-v{
+    border-radius: 23px;
+    background: #dec7a0;
+    border: 1px solid #dec7a0;
+    position: relative;
+    padding: 10px 20px;
+    overflow: hidden;
+    animation: showcontent 1s 0.4s ease forwards;
+    opacity: 0;
+}
+
+.bt-v a{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.bt-v::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    background-color: #e1b467;
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.bt-v:hover::before{
+
+    width: 300px;
+    height: 300px;
+}

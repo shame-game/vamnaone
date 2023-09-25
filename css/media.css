@@ -1,0 +1,404 @@
+@media (max-width: 1280px) {
+    .contents h1 {
+        font-size: calc(3.5rem + 2vw);
+    }
+
+    .b304-2-bg-1-content p {
+        margin: 0 !important;
+    }
+
+    .b304-2-bg-1-content h2 {
+        margin: 0 !important;
+        font-size: 5rem !important;
+    }
+
+    .b304-2-bg-1 {
+        height: 415px !important;
+    }
+
+    .home-intro-text h3 {
+        font-size: 3.3rem;
+    }
+
+    .home-intro-text h1 {
+        font-size: 3rem !important;
+    }
+
+    .b304-2-bg-2 {
+        top: 730px;
+    }
+
+    .CC-text {
+        transform: translateY(83%);
+    }
+}
+
+@media (max-width: 480px) {
+    .i {
+        display: flex !important;
+    }
+
+    .ul {
+        display: none;
+    }
+
+    .header-nav {
+        justify-content: space-between;
+        opacity: 1;
+        top: 0;
+        border-radius: 0;
+        padding: 8px 3%;
+        z-index: 999;
+        opacity: 0.8;
+        width: 100%;
+        left: 0;
+    }
+
+    .intro-items {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .header-nav {
+        opacity: 1;
+    }
+
+    .header-content {
+        display: none;
+    }
+
+    .home-intro-img {
+        display: none;
+    }
+
+    .home-intro-wrap-c {
+        display: none;
+    }
+
+    .home-intro-text {
+        margin: 0;
+    }
+
+    .home-intro-text p,
+    .home-intro-text h1,
+    .home-intro-text h3 {
+        text-align: center;
+    }
+
+    .bt-v {
+        margin: 20px 94px !important;
+    }
+
+    .contents h1 {
+        font-size: calc(1rem + 2vw);
+        text-align: center;
+    }
+
+    .contents p {
+        font-size: calc(1rem + 1vw);
+        text-align: center;
+    }
+
+    .items:nth-child(2) .contents {
+        width: 100%;
+        left: 0;
+    }
+
+    .items:nth-child(3) {
+        top: 57%;
+        left: 150%;
+    }
+
+    .items:nth-child(4) {
+        top: 57%;
+        left: 150%;
+    }
+
+    .contents ul {
+        list-style: none;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .bt-sr {
+        margin-left: -6px;
+    }
+
+    .slide {
+        height: 300px;
+    }
+
+    .button {
+        width: 94%;
+        right: 3%;
+        top: 47%;
+    }
+
+    .button i {
+        font-size: calc(3rem + 1.4vw);
+    }
+
+    .btt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-3 {
+        width: 100%;
+        border-radius: 0;
+        top: 0px;
+    }
+
+    .home-2 {
+        height: 100px;
+    }
+
+    .home-2-img h2 {
+        padding-top: 10px;
+    }
+
+    .home-3 .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-intro-text h3 {
+        font-size: 2rem !important;
+    }
+
+    .home-intro-text h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .intro-items {
+        border: 10px solid var(--rebackground);
+    }
+
+    .intro-items {
+        height: 400px;
+    }
+
+    .CL-items {
+        flex-direction: column;
+    }
+
+    .CL-background {
+        width: 180%;
+        height: 264px;
+        right: -90%;
+        top: 0;
+    }
+
+    .CL-boder {
+        width: 190%;
+        height: 250px;
+        right: -95%;
+        top: 6px;
+    }
+
+    .CL-img img {
+        width: 200%;
+        height: 228px;
+        top: 17px;
+        right: -100%;
+    }
+
+    .intro-wrap {
+        height: 340px;
+    }
+
+    .CL-img {
+        height: 50%;
+    }
+
+    .CL-text {
+        top: 0;
+        left: 0;
+    }
+
+    .CL-text h3 {
+        width: 100% !important;
+    }
+
+    .CL-text h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .CL-text p {
+        width: 100%;
+        font-size: 1.7rem;
+        padding: 0 20px;
+    }
+
+    .dd {
+        stroke-width: 0;
+    }
+
+    .b304-2-bg-1-wrap {
+        flex-direction: column;
+    }
+
+    .b304-2-bg {
+        height: 1900px !important;
+    }
+
+    .b304-2-bg-1 {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .b304-2-bg-1 {
+        height: 600px !important;
+    }
+
+    .b304-2-bg-1-img img {
+        top: -250px;
+        right: -180px;
+        width: 185%;
+    }
+
+    .b304-2-bg-1-content div {
+        margin: 0 !important;
+    }
+
+    .b304-2-bg-1-content h1 {
+        color: black;
+        font-size: 3rem;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .b304-2-bg-1-content h2 {
+        margin: 0 !important;
+        font-size: 4rem !important;
+        text-align: center;
+    }
+
+    .b304-2-bg-1-content p {
+        margin: 20px 15px !important;
+        text-align: center;
+    }
+
+    .b304-2-bg-2-wrap h1 {
+        font-size: 4rem;
+        position: absolute;
+        top: -80px;
+        left: 25px;
+    }
+
+    .b304-2-bg-2-wrap {
+        flex-direction: column;
+    }
+
+    .C4-x1-background {
+        display: none;
+    }
+
+    .C4-x1-border {
+        display: none;
+    }
+
+    .C4-x1-wrap {
+        height: 200px;
+    }
+
+    .C4-x1-wrap {
+        width: 100%;
+        height: 500px;
+    }
+
+    .b304-2-bg-2 {
+        height: 1200px;
+    }
+
+    .CR-wrap {
+        flex-direction: column;
+    }
+
+    .CR-img {
+        height: 300px;
+    }
+
+    .CR-text h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 390px;
+    }
+
+    .CR-text h3 {
+        display: none;
+    }
+
+    .CR-border {
+        width: 200%;
+        height: 200px;
+        right: -100%;
+        top: 10%;
+    }
+
+    .CR-img img {
+        width: 200%;
+        height: 220px;
+        top: 4%;
+        right: -100%;
+    }
+
+    .CR-text {
+        padding: 0;
+        margin: 0 10px;
+    }
+
+    .CR-text p {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .st-3-1 {
+        height: 100px;
+    }
+
+    .st-3-1 h1 {
+        padding: 30px 0;
+        font-size: 3rem;
+    }
+
+    .C3-wrap svg {
+        display: none;
+    }
+
+    .C3-wrap {
+        flex-direction: column;
+    }
+
+    .C3-items {
+        width: 100%;
+    }
+
+    .C3-content {
+        margin: 20px 0;
+    }
+
+    .C3 {
+        height: 1700px;
+    }
+
+    .CR-text ul {
+        line-height: 1.5 !important;
+        margin: 0 40px;
+    }
+
+    .ct {
+        display: block;
+        height: 500px;
+    }
+    .CR-text li{
+        font-size: 1.7rem !important;
+    }
+    .CC-wrap{
+        flex-direction: column  ;
+    }
+}

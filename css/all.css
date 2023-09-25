@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+}
+
+:root {
+    --background: #faead7;
+    --rebackground: rgb(254 246 243);
+    --border: #dec7a0;
+    --shame-color: rgb(0, 136, 255);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+.wrap {
+    max-width: 1600px;
+    overflow: hidden;
+    background-color: var(--background);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.ac {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul {
+    list-style: none;
+    user-select: none;
+}

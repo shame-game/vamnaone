@@ -1,0 +1,125 @@
+/* Phần hình nền */
+.header-img {
+    display: none;
+}
+
+.header-img.ac {
+    display: block;
+    background-image: url(../photo/home.jpg);
+    width: 100%;
+    filter: brightness(80%);
+    height: 600px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Phần chữ nền */
+
+.header-contents {
+    display: none;
+}
+
+.header-contents.ac {
+    display: block;
+}
+
+.header-content {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: showbg 1s ease forwards;
+    opacity: 0;
+}
+
+.header-content h1 {
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    opacity: 0;
+    animation: showcontent 0.7s 0.5s ease forwards;
+}
+
+.header-content h3 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 15px;
+    opacity: 0;
+    animation: showcontent 0.7s 0.4s ease forwards;
+}
+
+/* Phần Nav */
+
+.header-nav {
+    width: 90%;
+    position: fixed;
+    top: 20px;
+    left: 5%;
+    display: flex;
+    background-color: var(--rebackground);
+    border-radius: 8px;
+    padding: 8px 3%;
+    border: 1px solid var(--text-color);
+    z-index: 999;
+    opacity: 0.8;
+}
+
+#header-lachong {
+    width: calc(5rem + 2vw);
+    padding: 0 10px 0 0;
+}
+
+#header-cntt {
+    width: calc(8rem + 2vw);
+    padding: 0 10px;
+}
+
+.header-lists {
+    margin: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--shame-color);
+    bottom: -4px;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.tab-item {
+    opacity: 0.8;
+}
+
+.tab-item.ac {
+    opacity: 1;
+    font-weight: 900;
+}
+
+.ul .line {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    border-radius: 15px;
+    background-color: var(--shame-color);
+    transition: all 0.2s ease;
+}
