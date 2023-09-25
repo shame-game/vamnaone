@@ -58,5 +58,5 @@
 }
 
 .CC-content:hover  .CC-text{
-    transform: translateY(0);
+    transform: translateY(35%);
 }
