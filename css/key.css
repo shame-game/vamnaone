@@ -1,13 +1,4 @@
-@keyframes fade {
-    0% {
-        clip-path: polygon(120% 0, 100% 0, 100% 100%, 100% 100%);
-    }
 
-    100% {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, -20% 100%);
-
-    }
-}
 @keyframes home3 {
     0% {
         transform: translate3d(-1%, 0px, 0px) rotate(-6deg);
