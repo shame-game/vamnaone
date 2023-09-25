@@ -135,3 +135,9 @@ $$('.tab-menu').forEach((tab, index) => {
         $('.i-bg').setAttribute('style','visibility: hidden');
     }
 });
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('#i32', { 
+    viewFactor: 0.5
+  });
