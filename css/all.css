@@ -6,7 +6,7 @@
 }
 
 :root {
-    --background: #faead7;
+    --background: #ffffff;
     --rebackground: rgb(254 246 243);
     --border: #dec7a0;
     --shame-color: rgb(0, 136, 255);
@@ -23,7 +23,8 @@ body {
 
 
 .wrap {
-    max-width: 1600px;
+    width: 100%;
+    display: block;
     overflow: hidden;
     background-color: var(--background);
 }
