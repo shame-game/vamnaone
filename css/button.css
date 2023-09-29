@@ -65,22 +65,25 @@
 /* button nền vàng */ 
 .bt-v{
     border-radius: 23px;
-    background: #dec7a0;
-    border: 1px solid #dec7a0;
+    background: var(--lhu-color);
+    border: 1px solid var(--lhu-color);
     position: relative;
     padding: 10px 20px;
     overflow: hidden;
     animation: showcontent 1s 0.4s ease forwards;
     opacity: 0;
+    transition: all 0.5s;
 }
 
 .bt-v a{
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     position: relative;
     opacity: 1;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    letter-spacing: 0.4px
 }
 
 .bt-v::before{
@@ -91,13 +94,15 @@
     width: 0px;
     height: 0px;
     transform: translate(-50%, -50%);
-    background-color: #e1b467;
+    background-color: var(--lhu-hover);
     transition: all 0.5s;
     border-radius: 50%;
 }
 
 .bt-v:hover::before{
-
     width: 300px;
     height: 300px;
+}
+.bt-v:hover{
+    border: 1px solid var(--lhu-hover);
 }

@@ -1,13 +1,12 @@
 .CR{
     width: 100%;
-    background-color: var(--background);
     height: 500px;
     display: flex;
     justify-content: center;
 }
 .CR-wrap{
-    width: 1280px;
-    height: 500px;
+    width: 94%;
+    height: 100%;
     display: flex;
 }
 
@@ -22,7 +21,7 @@
 .CR-border{
     position: absolute;
     background-color: rgba(0, 0, 0,0);
-    border: 5px solid var(--border);
+    border: 5px solid var(--lhu-color);
     width: 96%;
     height: 400px;
     right: -2%;
@@ -39,6 +38,7 @@
     right: -4%;
     object-fit: cover;
     object-position: center;
+    box-shadow: 0 0 5px ;
 }
 
 .CR-text{
@@ -53,4 +53,5 @@
 .CR-text p{
     font-size: 2rem;
     width: 90%;
+    text-align: justify;
 }

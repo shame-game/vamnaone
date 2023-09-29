@@ -4,10 +4,10 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background-color: var(--background);
+    background-color: white;
 }
 .CL-items{
-    width: 1280px;
+    width: 94%;
     height: 100%;
     display: flex;
 }
@@ -24,7 +24,7 @@
 .CL-boder{
     position: absolute;
     background-color: rgba(0, 0, 0,0);
-    border: 5px solid var(--border);
+    border: 5px solid var(--lhu-color);
     width: 194%;
     height: 400px;
     right: -98%;
@@ -34,7 +34,7 @@
 
 .CL-background{
     position: absolute;
-    background-color: var(--rebackground);
+    background-color: #e3e3e3;
     width: 198%;
     height: 400px;
     right: -100%;
@@ -52,6 +52,8 @@
     object-fit: cover;
     object-position: center;
     z-index: 2;
+    border: 1px solid black;
+    box-shadow: 0 0px 10px rgb(142, 142, 142);
 }
 
 .CL-text{
@@ -62,7 +64,7 @@
 }
 
 .CL-text h1{
-    font-size: 5rem;
+    font-size: calc(1rem + 3vw);
     margin-bottom: 30px;
 }
 

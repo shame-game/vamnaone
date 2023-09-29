@@ -1,41 +1,80 @@
-
-.b304-2 {
+.CT{
     width: 100%;
-    background-color:var(--background);
-    position: relative;
-    z-index: 0;
+    height: 700px;
 }
 
-.b304-2 img{
+.CT-bg{
     width: 100%;
+    background-color: var(--lhu-color);
+    height: 300px;
+}
+.CT-title{
+    width: 100%;
+    margin-top: -250px;
+}
+.CT-title h1{
+    text-align: center;
+    font-size: calc(1rem + 3vw);
+    color: white;
+    letter-spacing: 0.1vw;
+   font-family: 'Roboto Slab', serif;
+}
+.CT-items{
+    height: 500px;
+    width: 90%;
+    margin:50px auto;
 }
 
-.b304-2-bg{
-    position: relative;
+.CT-content{
+    width: 80%;
+    margin: 15% auto;
+    height: 80%;
 }
-
+.CT-border{
+    width: 100%;
+    border: 1px solid rgb(125, 125, 125);
+    background-color: rgba(255, 255, 255,0.7);
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgb(0, 0, 0);
+}
+.CT-img{
+    width: 90%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: -30px;
+    box-shadow: 0 1px 5px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.CT-text{
+    width: 80%;
+    margin: 30px auto;
+}
+.CT-text h1{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.CT-text p{
+    font-size: 1vw;
+    text-align:justify;
+    margin-bottom: 10px;
+}
 #b21{
     position: relative;
     top: 5px;
 }
 
 .b304-2-bg-1{
-    position: absolute;
-    top: 200px;
-    left: 10%;
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
     background-color: rgb(254, 246, 243);
     height: 500px;
 }
-.dd{
-    stroke: rgb(222, 199, 160);
-    fill: none;
-    stroke-width: 7;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    width: 97%;
-}
+
 
 .b304-2-bg-1-wrap{
     width: 100%;
@@ -114,14 +153,12 @@
     display: block;
     width: 28px;
     height: 28px;
-    stroke: rgb(255, 183, 67);
+    stroke: var(--lhu-color);
     stroke-width: 2;
     fill: transparent;
 }
 
 .b304-2-bg-2{
-    position: absolute;
-    top: 850px;
     width: 100%;
     height: 400px;
     display: flex;

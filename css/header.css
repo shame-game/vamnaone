@@ -23,11 +23,12 @@
 
 .header-contents.ac {
     display: block;
+    position: relative;
 }
 
 .header-content {
     position: absolute;
-    top: 200px;
+    top: -400px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -55,19 +56,24 @@
 }
 
 /* Phần Nav */
-
-.header-nav {
-    width: 90%;
-    position: fixed;
-    top: 20px;
-    left: 5%;
-    display: flex;
-    background-color: var(--rebackground);
-    border-radius: 8px;
-    padding: 8px 3%;
-    border: 1px solid var(--text-color);
+.Header{
+    position: sticky;
+    max-width: 1920px;
+    top: 0px;
     z-index: 999;
+    margin: auto;
+}
+.header-nav {
+    width: calc(100% - 68px);
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px 36px;
+    border: 1px solid var(--text-color);
+    z-index: 998;
     opacity: 0.8;
+    margin: 8px 34px;
 }
 
 #header-lachong {
@@ -95,7 +101,7 @@
     width: 0;
     position: absolute;
     transition: all 0.3s ease-in-out;
-    background-color: var(--shame-color);
+    background-color: var(--lhu-color);
     bottom: -4px;
     left: 0;
 }
@@ -120,6 +126,6 @@
     width: 0;
     height: 2px;
     border-radius: 15px;
-    background-color: var(--shame-color);
+    background-color: var(--lhu-color);
     transition: all 0.2s ease;
 }

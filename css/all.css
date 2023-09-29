@@ -6,10 +6,11 @@
 }
 
 :root {
-    --background: #ffffff;
-    --rebackground: rgb(254 246 243);
+    --background: #c0d6f7;
+    --rebackground: white;
     --border: #dec7a0;
-    --shame-color: rgb(0, 136, 255);
+    --lhu-color: #1565c0;
+    --lhu-hover: #ffa500;
 }
 
 html {
@@ -25,8 +26,8 @@ body {
 .wrap {
     width: 100%;
     display: block;
-    overflow: hidden;
     background-color: var(--background);
+    box-sizing: inherit;
 }
 
 .tab-content {
