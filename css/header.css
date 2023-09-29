@@ -64,7 +64,7 @@
     margin: auto;
 }
 .header-nav {
-    width: calc(100% - 68px);
+    width: calc(100% - 200px);
     position: absolute;
     top: 20px;
     background-color: white;
@@ -73,7 +73,7 @@
     border: 1px solid var(--text-color);
     z-index: 998;
     opacity: 0.8;
-    margin: 8px 34px;
+    margin: 8px 100px;
 }
 
 #header-lachong {

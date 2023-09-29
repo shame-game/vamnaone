@@ -1,14 +1,19 @@
 
 .C3 {
-    background-color: var(--background);
     width: 100%;
     height: 700px;
     display: flex;
     justify-content: center;
+    background-color: var(--lhu-color);
+    background-image: url(../photo/pattern-lines.d6471bace81c3ada86db50ecb4e28f92-_1_.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .C3-wrap{
-    width: 1280px;
+    width: 90%;
+    max-width: 1366px;
     height: 100%;
     display: flex;
     padding: 50px 0;
@@ -18,6 +23,7 @@
 .C3-text p{
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 
 .C3-items{
