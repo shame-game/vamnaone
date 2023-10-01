@@ -13,16 +13,13 @@
     background-image: url(../photo/347634455_10013061942052675_963559843225718694_n.jpg);
     background-position: center 0;
 }
-
 .home-2-img h1 {
     color: white;
     font-family: 'Roboto Slab';
-    padding: a;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 15px;
     font-size: calc(1rem + 4vw);
 }
-
 .home-2-img h2 {
     color: white;
     font-family: 'Roboto Slab';
