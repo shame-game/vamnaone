@@ -131,6 +131,9 @@
     width: 80%;
     top: 50px;
     left: 10%;
+    height: 390px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .tt-1-content {
