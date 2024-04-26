@@ -29,10 +29,10 @@
         }
         document.querySelector('#getlink').onclick = () => {
             var linkt = document.querySelector('#linkt').value
-            if (linkt != '') {
+            if (linkt != '' && linkt.indexOf('https://drive.google.com/file/d/') !== -1 && linkt.indexOf('/view?') !== -1) {
                 document.querySelector('#links').innerText = 'https://lh3.googleusercontent.com/d/' + layKyTuTuDToG(linkt)
             } else {
-                document.querySelector('#links').innerText = 'vui lòng điền link ảnh drive'
+                document.querySelector('#links').innerText = 'vui lòng điền đúng link dirve'
             }
         }
     </script>
